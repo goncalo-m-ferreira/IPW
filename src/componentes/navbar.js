@@ -1,29 +1,18 @@
-import React , {useState} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
-function navbar() {
+function Navbar() {
   return (
     <>
-        <nav className= 'navbar'>
-
-        <div className= 'navbar-container'>
-
-            <Link to= '/' className='navbar-logo'>
-            WORLD TRAVEL <i className= ' fab fa-typo3'/>
-            </Link>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo'>
+            WORLD TRAVEL <i className='fab fa-typo3' />
+          </Link>
         </div>
-
-
-
-        </nav>
-
-
-
+      </nav>
     </>
-  )
+  );
 }
 
-export default navbar
+export default Navbar;
